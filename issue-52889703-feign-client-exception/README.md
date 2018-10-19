@@ -1,4 +1,6 @@
-# Stackoverflow issue: How to hanlde feign exception using fallback and custom errro handler
+# Stackoverflow issue: #52889703
+
+#### How to handle feign exception using fallback and custom errro handler
 
 ### How to run the application ?
 

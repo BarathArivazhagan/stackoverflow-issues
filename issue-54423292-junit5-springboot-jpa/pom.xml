@@ -8,10 +8,10 @@
 		<version>2.1.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.barath.test.demo</groupId>
-	<artifactId>springboot2-junit5-playground</artifactId>
+	<groupId>com.stackoverflow</groupId>
+	<artifactId>issue-54423292-junit5-springboot-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot2-junit5-playground</name>
+	<name>issue-54423292-junit5-springboot-jpa</name>
 	<description>spring boot project</description>
 
 	<properties>

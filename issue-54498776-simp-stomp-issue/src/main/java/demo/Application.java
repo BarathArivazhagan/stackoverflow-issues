@@ -33,10 +33,10 @@ public class Application {
 	
 	@GetMapping(value="/home")
 	public String home() {
-		return "gello";
+		return "hello";
 	}
 			
-	@RequestMapping(value = "/senddata", method = RequestMethod.POST)
+	@RequestMapping(value = "/send-data", method = RequestMethod.POST)
 	public String sendData(@RequestHeader(value = "id") String id,
             @RequestHeader(value = "data") String data) {
 		

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello WebSocket</title>
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>  
+    <script src="/app.js"></script>
+</head>
+<body>
+<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
+    enabled. Please enable
+    Javascript and reload this page!</h2></noscript>
+<div id="main-content" class="container">
+    
+    <div class="page-header">
+  		<h1>Welcome to Web socket Example</h1>
+	</div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+        	Enter the message<input id="message" class="message"></input>
+           <button onclick="sendMessage()">Send Message</button>
+        </div>
+        
+    </div>
+     <div class="row" style="padding-top: 30px;">
+        <div class="col-sm-12 col-md-12">
+            <h4>Messages Sent</h4>
+            <div id="renderHere"></div>
+        </div>
+        
+    </div>
+   
+</div>
+
+</body>
+</html>

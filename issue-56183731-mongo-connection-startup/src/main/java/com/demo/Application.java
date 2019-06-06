@@ -12,13 +12,6 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
-	@Bean
-	public CommandLineRunner commandLineRunner(JobRepository jobRepository ){
-		System.out.println("test hello world");
-		return args -> {
-			System.out.println("test hello world");
-			jobRepository.findById("1");
-		};
-	}
+
 
 }

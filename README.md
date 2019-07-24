@@ -1,2 +1,2 @@
-# stackoverflow-example-jpasample
+# stackoverflow-issues
 stackoverflow help repository
